@@ -1,19 +1,24 @@
 {
-  "name": "webxr-proof-of-concept",
+  "homepage": "https://fanny-cacilie.github.io/motion-capture-in-webxr",
+  "name": "motion-capture-in-webxr",
   "version": "1.0.0",
   "description": "Application in JavaScript to run an WebXR environment and session with Augmented Reality (AR), using WebXR, Three.js and WebGL tools.",
   "main": "main.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "author": "Fanny Cacilie",
   "bugs": {
-    "url": "https://gitlab.com/sat-mtl/collaborations/2023-GSoC-MotionCaptureWebXR/-/issues"
+    "url": "https://github.com/fanny-cacilie/motion-capture-in-webxr/issues"
   },
-  "homepage": "https://gitlab.com/sat-mtl/collaborations/2023-GSoC-MotionCaptureWebXR/-/blob/develop/README.md",
   "dependencies": {
     "three": "^0.153.0"
   },
   "devDependencies": {
     "eslint": "^8.43.0",
+    "gh-pages": "^5.0.0",
     "vite": "^4.3.9"
   }
 }
