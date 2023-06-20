@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "start": "cd src && npx vite",
-    "build": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "author": "Fanny Cacilie",
