@@ -6,7 +6,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "npx vite"
+    "start": "cd src && npx vite"
   },
   "author": "Fanny Cacilie",
   "bugs": {
