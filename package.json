@@ -6,7 +6,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "cd app && npx vite",
+    "start": "cd src && npx vite",
     "build": "npm run build",
     "deploy": "gh-pages -d dist"
   },
