@@ -6,9 +6,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start": "cd src && npx vite",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "npx vite"
   },
   "author": "Fanny Cacilie",
   "bugs": {
