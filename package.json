@@ -6,7 +6,7 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "build": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "author": "Fanny Cacilie",
